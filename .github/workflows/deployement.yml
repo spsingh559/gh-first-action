@@ -1,5 +1,5 @@
 name: Test Project # name of work flow
-on: push # event when it should be triggered. Push is for any push event in repo
+on: [push, workflow_dispatch] # event when it should be triggered. Push is for any push event in repo, workflow dispatch is for any manual event. You can pass multiple events
 jobs:
   test:
     runs-on: ubuntu-latest # runner where work flow can be hosted
