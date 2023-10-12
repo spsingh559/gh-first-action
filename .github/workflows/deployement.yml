@@ -30,3 +30,4 @@ jobs:
         run: npm run build
       - name: deploy
         run: echo "Deploying to the server"
+    
