@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: spsingh559/react-app:2.0.0
+          tags: spsingh559/react-app:3.0.0
